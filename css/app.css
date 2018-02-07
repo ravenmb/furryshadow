@@ -1,2 +1,14 @@
 *{outline: 1px solid red;}
 /* comments */
+
+.blackcatr {
+  width: 128px;
+  height: 240px;
+  margin: 2% auto;
+  background: "../images/blackcat.jpg", left center;
+  animation: play .8s steps(10) infinite;
+}
+
+@keyframes play {
+    100% { background-position: -1280px; }
+}
