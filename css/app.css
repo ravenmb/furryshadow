@@ -1,13 +1,34 @@
 *{outline: 1px solid red;}
 /* comments */
 
+h1 {text-align: center;}
+p {text-align: left;}
+
 .blackcat {
   width: 128px;
-  height: 240px;
+  height: 72px;
   margin: 2% auto;
   background: "../images/blackcat.jpg", left center;
   animation: play .8s steps(10) infinite;
 }
+
+.square {
+}
+
+.numberleft {
+
+}
+
+.numberright {float: right;
+              width: 128px;
+}  
+
+.poem {
+	margin: auto;
+	padding: 20px 0;
+	text-align: left;
+	width: 390px;
+	}
 
 @keyframes play {
     100% { background-position: -1280px; }
