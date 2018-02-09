@@ -1,14 +1,28 @@
 /* troubleshooting */
 /* *{outline: 1px solid red;} */
-/* comments */
 
-h1 {text-align: center;}
+/* font-family: 'Noto Serif', serif;
+font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto');
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+h1, h2 {text-align: center;
+    font-family: 'Noto Serif', serif;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;}
 p {text-align: center;}
 div {background-color: gray;
 }
 
 .container {
-  position: relative;
+  position: absolute;
   width: 1000px;
   height: 625px;
   left: 100px;
@@ -81,22 +95,31 @@ div {background-color: gray;
   left: 800px;
 }
 
-footer {
+footer p {
         width: 1000px;
-        height: 15px;
+        height: 25px;
         position: absolute;
         top: 600px;
         left: 100px;
         clear: both;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 0px;
       }
 
 a {
   background-color: gray;
 }
 
+a:link, a:visited {text-decoration: none;
+    display: block;
+    color: #D5D5D5;}
+
 div:hover, a:hover {
   background-color: lightgray;
 }
+
+a:hover {color: #6D7993;}
+
 /* css for the poem pages */
 
 .poem {
