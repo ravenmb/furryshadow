@@ -17,8 +17,15 @@ h1, h2 {text-align: center;
     -webkit-margin-after: 0px;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;}
+
+h1 {font-size: 3em;}
+
 p {text-align: center;}
-div {background-color: gray;
+div, a {background-color: gray;
+      -webkit-transition-property: background-color; /* Safari */
+      -webkit-transition-duration: 1s; /* Safari */
+      transition-property: background-color;
+      transition-duration: 1s;
 }
 
 .container {
