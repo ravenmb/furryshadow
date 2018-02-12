@@ -199,17 +199,18 @@ a:hover {color: #6D7993;}
     transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
 }
 
-/* .balls {
-        position: relative;
-        content: normal;
-        -webkit-transition: content 25s linear 2s;
-        transition: content 25s linear 2s;
+ .balls {
+        width: auto;
+        height: auto;
+
         }
-      */
 
 .balls:hover::after {
-            content: url("/Users/michellebrown/Documents/GitHub/furryshadow/images/black-ball.png");
-            display: block;
+            content: url("/Users/michellebrown/Documents/GitHub/furryshadow/images/black-ball-small.png");
+            display: inline;
+            position: relative;
+            top: 20px;
+            left: -40px;
         }
 
 .bird:hover {top: -15px;
