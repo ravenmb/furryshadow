@@ -22,12 +22,41 @@ h1, h2, h3 {text-align: center;
 h1 {font-size: 3em;}
 
 p {text-align: center;}
+
 div, a {background-color: #777777;
       -webkit-transition-property: background-color; /* Safari */
       -webkit-transition-duration: 1s; /* Safari */
       transition-property: background-color;
       transition-duration: 1s;
 }
+
+span {display: inline-block;}
+
+/* nav */
+nav a{background-color: #6D7993;
+      display: inline;}
+ul {background-color: #6D7993;
+    list-style-type: none;
+    text-align: center;}
+li {float: left;}
+li a {display: block;
+      padding: 10px;
+      margin-top: 20px;
+    background-color: #6D7993;
+    font-size: 1.25em;}
+
+header {
+  position: relative;
+  width: 1000px;
+  height: 75px;
+  left:150px;
+  padding: 0px;
+  margin: 0px;
+  background-color: #6D7993;
+}
+
+
+/* index.html */
 
 .container {
   position: absolute;
@@ -132,7 +161,7 @@ a:hover {color: #6D7993;}
 
 .poem p{
 	margin: auto;
-	padding: 15px 0px 0px 90px;
+	padding: 20px 0px 0px 110px;
 	text-align: left;
 	width: 390px;
 	}
@@ -154,44 +183,39 @@ a:hover {color: #6D7993;}
     100% { background-position: -1260px; }
 }
 
-/* Three Days Passed
-.three p{
-  margin: auto;
-	padding: 20px 0px 0px 165px;
-	text-align: left;
-	width: 390px;
+/* dickenson */
+
+.emily {line-height: 1.5em;}
+
+.bird, .balls, .jaws, .hopes, .toes {font-weight: bold;}
+
+.bird {position: relative;
+      top: 0px;
+      left:0px;
+    -webkit-transition: top 5s; /* For Safari 3.1 to 6.0 */
+    transition: top 5s;
+     -webkit-transition: left 3s; /* For Safari 3.1 to 6.0 */
+    transition: left 3s;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
 }
 
-.feathers {font-family: 'Cabin Sketch', cursive;
-          font-size: 3em;
-          position: relative;
-          left: 425px;
-          background-color: white;}
+/* .balls {
+        position: relative;
+        content: normal;
+        -webkit-transition: content 25s linear 2s;
+        transition: content 25s linear 2s;
+        }
+      */
 
-#drift1 {
-        font-size: 3em;
-        height: 50px;
-        width: 25px;
-        animation-name:play;
-        -webkit-animation: play 15s infinite;
-        animation-play-state:paused;
-        animation-iteration-count:infinite;
+.balls:hover::after {
+            content: url("/Users/michellebrown/Documents/GitHub/furryshadow/images/black-ball.png");
+            display: block;
         }
 
-#drift1 {animation-play-state:running;}
+.bird:hover {top: -15px;
+            left: 15px;}
 
-@keyframes play{
-  0% {transform:translate(0px,0px);}
-  5% {transform:rotate(-100deg);}
-  10% {transform:translate(50px,105px);}
-  15% {transform:rotate(-30deg);}
-  25% {transform:translate(25px,125px);}
-  27% {transform:rotate(25deg);}
-  35% {transform:translate(150px,150px);}
-  55% {transform:rotate(-20deg);}
-  65% {transform:translate(0px,300px);}
-  75% {transform:rotate(200deg);}
-  80% {transform:translate(150px,350px);}
-  90% {transform:rotate(90deg);}
-  100% {transform:translate(75px,420px);}
-  } */
+.jaws:hover {-ms-transform: skewY(-40deg); /* IE 9 */
+    -webkit-transform: skewY(-40deg); /* Safari */
+    transform: skewY(-40deg); /* Standard syntax */
+}
