@@ -175,7 +175,7 @@ a:hover {color: #6D7993;}
     position:absolute;
     top: 470px;
     left: 420px;
-    background-image: url("/Users/michellebrown/Documents/GitHub/furryshadow/images/black-cat.jpg");
+    background-image: url("/images/black-cat.jpg");
     animation: play 2s steps(10) infinite;
   }
 
@@ -199,24 +199,48 @@ a:hover {color: #6D7993;}
     transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
 }
 
- .balls {
+.balls {
         width: auto;
         height: auto;
-
         }
 
+.hopes {position: relative;
+        top: 0px;
+        -webkit-transition: top 6s linear 1s; /* For Safari 3.1 to 6.0 */
+        transition: top 6s linear 1s;
+          }
+
+
+.bird:hover {top: -15px;
+            left: 15px;}
+
 .balls:hover::after {
-            content: url("/Users/michellebrown/Documents/GitHub/furryshadow/images/black-ball-small.png");
+            content: url("../images/black-ball-small.png");
             display: inline;
             position: relative;
             top: 20px;
             left: -40px;
-        }
-
-.bird:hover {top: -15px;
-            left: 15px;}
+                    }
 
 .jaws:hover {-ms-transform: skewY(-40deg); /* IE 9 */
     -webkit-transform: skewY(-40deg); /* Safari */
     transform: skewY(-40deg); /* Standard syntax */
 }
+
+.hopes:hover {top: -30px;}
+
+
+.toes:hover {
+              -webkit-animation: toesmove 5s infinite; /* Safari 4.0 - 8.0 */
+             animation: toesmove 5s infinite;
+             }
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes toesmove {
+                 50% {font-size: 2em;
+                      letter-spacing: 4px;}
+             }
+@keyframes toesmove {
+                 50% {font-size: 2em;
+                   letter-spacing: 4px;}
+             }

@@ -50,7 +50,8 @@ div, div:hover {background-color: white;}
         animation-iteration-count:infinite;
         }
 
-#drift1, #drift2, #drift3 {animation-play-state:running;}
+#drift1, #drift2, #drift3 {animation-play-state:running;
+                          display: inline-block;}
 
 @keyframes play1 {
   0% {transform:translate(0px,0px);}
