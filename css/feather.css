@@ -5,6 +5,8 @@
 
 div, div:hover {background-color: white;}
 
+
+
 .three p{
   margin: auto;
 	padding: 20px 0px 0px 165px;
@@ -16,7 +18,8 @@ div, div:hover {background-color: white;}
           font-size: 3em;
           position: relative;
           left: 420px;
-          background-color: white;}
+          background-color: white;
+          display: inline;}
 
 .drift1 {
         top:auto;
@@ -64,7 +67,7 @@ div, div:hover {background-color: white;}
   55% {transform:rotate(-20deg);}
   65% {transform:translate(0px,300px);}
   75% {transform:rotate(200deg);}
-  80% {transform:translate(150px,350px);}
+  80% {transform:translate(-150px,350px);}
   90% {transform:rotate(90deg);}
   100% {transform:translate(75px,420px);}
   }
@@ -72,7 +75,7 @@ div, div:hover {background-color: white;}
   @keyframes play2 {
     0% {transform:translate(0px,25px);}
     5% {transform:rotate(80deg);}
-    10% {transform:translate(100px,105px);}
+    10% {transform:translate(-100px,105px);}
     15% {transform:rotate(30deg);}
     25% {transform:translate(75px,145px);}
     27% {transform:rotate(-25deg);}
@@ -90,7 +93,7 @@ div, div:hover {background-color: white;}
       5% {transform:rotate(-40deg);}
       10% {transform:translate(80px,75px);}
       15% {transform:rotate(-130deg);}
-      25% {transform:translate(40px,125px);}
+      25% {transform:translate(-40px,125px);}
       27% {transform:rotate(25deg);}
       35% {transform:translate(100px,200px);}
       55% {transform:rotate(80deg);}
