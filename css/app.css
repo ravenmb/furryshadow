@@ -250,14 +250,11 @@ a:hover {color: #6D7993;}
            }
 
 @keyframes toesmove {
-                25% {font-size: 1.25em;
-                   letter-spacing: 6px;}
+                25% {letter-spacing: 6px;}
                 50% {font-size: 2em;
-                    letter-spacing: 4px;}
-                75% {font-size: 1em;
-                       letter-spacing: 2px;}
-                100% {font-size: 2em;
-                      letter-spacing: 4px;}
+                    letter-spacing: 0.5px;}
+                60% {letter-spacing: 6px;}
+                75% {letter-spacing: 2px;}
              }
 
 @@keyframes hopesmove {
