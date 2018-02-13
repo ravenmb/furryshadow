@@ -175,7 +175,7 @@ a:hover {color: #6D7993;}
     position:absolute;
     top: 470px;
     left: 420px;
-    background-image: url("/images/black-cat.jpg");
+    background-image: url("images/black-cat.jpg");
     animation: play 2s steps(10) infinite;
   }
 
@@ -215,7 +215,7 @@ a:hover {color: #6D7993;}
             left: 15px;}
 
 .balls:hover::after {
-            content: url("../images/black-ball-small.png");
+            content: url("images/black-ball-small.png");
             display: inline;
             position: relative;
             top: 20px;
