@@ -214,7 +214,7 @@ a:hover {color: #6D7993;}
             left: 15px;}
 
 .balls:hover::after {
-            content: url("images/black-ball-small.png");
+            content: url("../images/black-ball-small.png");
             display: inline;
             position: relative;
             top: 20px;
