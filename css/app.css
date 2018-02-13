@@ -175,7 +175,7 @@ a:hover {color: #6D7993;}
     position:absolute;
     top: 470px;
     left: 420px;
-    background-image: url("images/black-cat.jpg");
+    background-image: url("../images/black-cat.jpg");
     animation: play 2s steps(10) infinite;
   }
 
@@ -210,7 +210,6 @@ a:hover {color: #6D7993;}
         transition: top 6s linear 1s;
           }
 
-
 .bird:hover {top: -15px;
             left: 15px;}
 
@@ -229,7 +228,6 @@ a:hover {color: #6D7993;}
 
 .hopes:hover {top: -30px;}
 
-
 .toes:hover {
               -webkit-animation: toesmove 5s infinite; /* Safari 4.0 - 8.0 */
              animation: toesmove 5s infinite;
@@ -242,5 +240,5 @@ a:hover {color: #6D7993;}
              }
 @keyframes toesmove {
                  50% {font-size: 2em;
-                   letter-spacing: 4px;}
+                    letter-spacing: 4px;}
              }
