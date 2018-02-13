@@ -18,7 +18,7 @@ div, div:hover {background-color: white;}
           left: 420px;
           background-color: white;}
 
-#drift1 {
+.drift1 {
         top:auto;
         font-size: 3em;
         height: 50px;
@@ -29,7 +29,7 @@ div, div:hover {background-color: white;}
         animation-iteration-count:infinite;
         }
 
-#drift2 {
+.drift2 {
         top:auto;
         font-size: 3em;
         height: 50px;
@@ -40,7 +40,7 @@ div, div:hover {background-color: white;}
         animation-iteration-count:infinite;
         }
 
-#drift3 {
+.drift3 {
         font-size: 3em;
         height: 50px;
         width: 25px;
@@ -50,7 +50,7 @@ div, div:hover {background-color: white;}
         animation-iteration-count:infinite;
         }
 
-#drift1, #drift2, #drift3 {animation-play-state:running;
+.drift1, .drift2, .drift3 {animation-play-state:running;
                           display: inline-block;}
 
 @keyframes play1 {
