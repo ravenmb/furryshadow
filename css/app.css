@@ -235,7 +235,13 @@ a:hover {color: #6D7993;}
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes toesmove {
-                 50% {font-size: 2em;
+                25% {font-size: 1.25em;
+                   letter-spacing: 6px;}
+                50% {font-size: 2em;
+                    letter-spacing: 4px;}
+                75% {font-size: 1em;
+                       letter-spacing: 2px;}
+                100% {font-size: 2em;
                       letter-spacing: 4px;}
              }
 
@@ -244,8 +250,14 @@ a:hover {color: #6D7993;}
            }
 
 @keyframes toesmove {
-                 50% {font-size: 2em;
+                25% {font-size: 1.25em;
+                   letter-spacing: 6px;}
+                50% {font-size: 2em;
                     letter-spacing: 4px;}
+                75% {font-size: 1em;
+                       letter-spacing: 2px;}
+                100% {font-size: 2em;
+                      letter-spacing: 4px;}
              }
 
 @@keyframes hopesmove {
