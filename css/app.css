@@ -206,8 +206,6 @@ a:hover {color: #6D7993;}
 
 .hopes {position: relative;
         top: 0px;
-        -webkit-transition: top 6s linear 1s; /* For Safari 3.1 to 6.0 */
-        transition: top 6s linear 1s;
           }
 
 .bird:hover {top: -15px;
@@ -226,7 +224,9 @@ a:hover {color: #6D7993;}
     transform: skewY(-40deg); /* Standard syntax */
 }
 
-.hopes:hover {top: -30px;}
+.hopes:hover {
+            -webkit-animation: hopesmove 6s infinite; /* Safari 4.0 - 8.0 */
+            animation: hopesmove 6s infinite;}
 
 .toes:hover {
               -webkit-animation: toesmove 5s infinite; /* Safari 4.0 - 8.0 */
@@ -238,7 +238,16 @@ a:hover {color: #6D7993;}
                  50% {font-size: 2em;
                       letter-spacing: 4px;}
              }
+
+@-webkit-keyframes hopesmove {
+          50% {top: -30px;}
+           }
+
 @keyframes toesmove {
                  50% {font-size: 2em;
                     letter-spacing: 4px;}
              }
+
+@@keyframes hopesmove {
+  50% {top: -30px;}
+   }
